@@ -15,7 +15,7 @@ import numpy as np
 from utils import Bar, Logger, AverageMeter, precision_k,  ndcg_k, calc_f1, mkdir_p
 from sklearn.metrics import f1_score, precision_score, recall_score, accuracy_score
 
-parser = argparse.ArgumentParser(description='PyTorch ImageNet Training')
+parser = argparse.ArgumentParser(description='PyTorch Training')
 
 parser.add_argument('-j', '--workers', default=4, type=int, metavar='N',
                     help='number of data loading workers (default: 4)')
