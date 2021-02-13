@@ -17,7 +17,7 @@ import numpy as np
 import data_got
 
 from utils import Bar, Logger, AverageMeter,  precision_k,  ndcg_k,calc_f1, mkdir_p, savefig
-
+parser = argparse.ArgumentParser(description='PyTorch Training')
 parser.add_argument('-j', '--workers', default=4, type=int, metavar='N',
                     help='number of data loading workers (default: 4)')
 parser.add_argument('--epochs', default=15, type=int, metavar='N',
