@@ -1,6 +1,6 @@
 # HTTN-master
-The code for "Does Head Label Help for Long-Tailed Multi-Label Text Classification"
-If you make use of this code or the HTTN algorithm in your work, please cite the following paper:
+The code for "Does Head Label Help for Long-Tailed Multi-Label Text Classification"\\
+If you make use of this code or the HTTN algorithm in your work, please cite the following paper:\\
 
 @article{xiao2021does,
   title={Does Head Label Help for Long-Tailed Multi-Label Text Classification},
