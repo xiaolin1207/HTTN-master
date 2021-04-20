@@ -77,7 +77,7 @@ class Extractor(nn.Module):
         return word_embeddings
 
     def init_hidden(self):
-        return (torch.randn(2,5,self.lstm_hid_dim).cuda(),torch.randn(2,5,self.lstm_hid_dim).cuda())
+        return (torch.randn(2,90,self.lstm_hid_dim).cuda(),torch.randn(2,90,self.lstm_hid_dim).cuda())
 
 class Embedding(nn.Module):
     def __init__(self):
